@@ -37,7 +37,7 @@ The HTML file establishes the structure of the soundboard.
 Key elements include:
 
 - A <main> container that centers the title and soundboard
-- A <ul> list containing each drum key
+- A list containing each drum key
 - Each key uses a data-key attribute to link UI elements to audio files
 - <audio> elements that match the same data-key values
 - External links to styles.css and script.js
