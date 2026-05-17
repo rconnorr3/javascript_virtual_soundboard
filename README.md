@@ -45,8 +45,8 @@ Key elements include:
 Example structure:
 
 html
-<li data-key="a" class="key">
-    <kbd>A</kbd>
+<li data-key="r" class="key">
+    <kbd>R</kbd>
     <span class="sound">REALITY DRUMS</span>
 </li>
 
