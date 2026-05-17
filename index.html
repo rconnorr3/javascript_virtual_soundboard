@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Virtual Drum Kit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <main class="drum-container">
+    <h1>JS Virtual Drum Kit</h1>
+    <section id="soundboard">
+        <ul class="keys">
+
+                <li data-key="r" class="key">
+                    <kbd>R</kbd>
+                    <span class="sound">REALITY DRUMS</span>
+                </li>
+
+                <li data-key="a" class="key">
+                    <kbd>A</kbd>
+                    <span class="sound">ATMOSPHERIC DRUMS</span>
+                </li>
+
+                <li data-key="b" class="key">
+                    <kbd>B</kbd>
+                    <span class="sound">BOT DRUMS</span>
+
+                    <li data-key="p" class="key">
+                    <kbd>P</kbd>
+                    <span class="sound">POP DRUMS</span>
+                </li>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Updated audio file names -->
+    <audio data-key="r" src="assets/sounds/reality-drums.mp3"></audio>
+    <audio data-key="a" src="assets/sounds/atmospheric-drums.mp3"></audio>
+    <audio data-key="b" src="assets/sounds/beat of time-drums.mp3"></audio>
+    <audio data-key="p" src="assets/sounds/pop-drums.mp3"></audio>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
