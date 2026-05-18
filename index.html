@@ -1,54 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Virtual Drum Kit</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Virtual Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-   <main class="drum-container">
+  <main>
     <h1>JS Virtual Drum Kit</h1>
+
     <section id="soundboard">
-        <ul class="keys">
+      <ul class="keys">
 
-                <li data-key="r" class="key">
-                    <kbd>R</kbd>
-                    <span class="sound">REALITY DRUMS</span>
-                </li>
+        <li data-key="a" class="key">
+          <kbd>A</kbd>
+          <span class="sound">Atmospheric</span>
+        </li>
 
-                <li data-key="a" class="key">
-                    <kbd>A</kbd>
-                    <span class="sound">ATMOSPHERIC DRUMS</span>
-                </li>
+        <li data-key="b" class="key">
+          <kbd>B</kbd>
+          <span class="sound">Beat of Time</span>
+        </li>
 
-                <li data-key="b" class="key">
-                    <kbd>B</kbd>
-                    <span class="sound">BOT DRUMS</span>
+        <li data-key="d" class="key">
+          <kbd>D</kbd>
+          <span class="sound">Dancehall</span>
+        </li>
 
-                    <li data-key="p" class="key">
-                    <kbd>P</kbd>
-                    <span class="sound">POP DRUMS</span>
-                </li>
-                </li>
-            </ul>
-        </section>
-    </main>
+        <li data-key="p" class="key">
+          <kbd>P</kbd>
+          <span class="sound">Pop</span>
+        </li>
 
-    <!-- Updated audio file names -->
-    <audio data-key="r" src="assets/sounds/reality-drums.mp3"></audio>
-    <audio data-key="a" src="assets/sounds/atmospheric-drums.mp3"></audio>
-    <audio data-key="b" src="assets/sounds/beat of time-drums.mp3"></audio>
-    <audio data-key="p" src="assets/sounds/pop-drums.mp3"></audio>
+        <li data-key="r" class="key">
+          <kbd>R</kbd>
+          <span class="sound">Reality</span>
+        </li>
 
+        <li data-key="s" class="key">
+          <kbd>S</kbd>
+          <span class="sound">Soul</span>
+        </li>
 
+        <li data-key="t" class="key">
+          <kbd>T</kbd>
+          <span class="sound">Tense</span>
+        </li>
 
-    <script src="script.js"></script>
+        <li data-key="i" class="key">
+          <kbd>I</kbd>
+          <span class="sound">Tribal</span>
+        </li>
+
+      </ul>
+    </section>
+  </main>
+
+  <!-- AUDIO ELEMENTS -->
+  <audio data-key="a" src="assets/sounds/atmospheric-drums.mp3"></audio>
+  <audio data-key="b" src="assets/sounds/beat of time-drums.mp3"></audio>
+  <audio data-key="d" src="assets/sounds/dancehall-drums.mp3"></audio>
+  <audio data-key="p" src="assets/sounds/pop-drums.mp3"></audio>
+  <audio data-key="r" src="assets/sounds/reality-drums.mp3"></audio>
+  <audio data-key="s" src="assets/sounds/soul-drums.mp3"></audio>
+  <audio data-key="t" src="assets/sounds/tense-drums.mp3"></audio>
+  <audio data-key="i" src="assets/sounds/tribal-drums.mp3"></audio>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
+
 
 
 
