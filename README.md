@@ -14,18 +14,23 @@ An interactive soundboard that plays custom drum samples when the user presses k
 ---
 
 ## Project Structure
-project-folder/
+JS-VIRTUAL-DRUM-KIT/
 │
 ├── index.html
 ├── styles.css
 ├── script.js
+├── README.md
 │
 └── assets/
     └── sounds/
-        ├── reality-drums.mp3
         ├── atmospheric-drums.mp3
-        ├── beat-of-time-drums.mp3
-        └── pop-drums.mp3
+        ├── beat of time-drums.mp3
+        ├── dancehall-drums.mp3
+        ├── pop-drums.mp3
+        ├── reality-drums.mp3
+        ├── soul-drums.mp3
+        ├── tense-drums.mp3
+        └── tribal-drums.mp3
 
 All sound files are stored in **assets/sounds/** and mapped using `data-key` attributes.
 
